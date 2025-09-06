@@ -9,6 +9,7 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
         </processorPath>
+        <module name="department-service" />
         <module name="Department" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Department" options="-parameters" />
+      <module name="department-service" options="-parameters" />
     </option>
   </component>
 </project>
